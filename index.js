@@ -14,7 +14,7 @@ app.use(express.json());
 app.use(express.static("public")); // برای پنل مدیریت HTML
 
 // ---------------- MongoDB Setup ----------------
-mongoose.connect("mongodb+srv://USERNAME:PASSWORD@cluster0.mongodb.net/licenseDB?retryWrites=true&w=majority", {
+mongoose.connect("mongodb://mongo:NbqPswHGUNbGRZXVOUwhwAiCZxSESXTW@hopper.proxy.rlwy.net:57835", {
     useNewUrlParser: true,
     useUnifiedTopology: true
 }).then(() => console.log("MongoDB connected"))
