@@ -1,0 +1,26 @@
+{
+  "name": "license-manager-api",
+  "version": "1.0.0",
+  "description": "API مدیریت لایسنس با محدودیت روزانه و تقویم شمسی",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": [
+    "license",
+    "express",
+    "api",
+    "mongodb",
+    "jalali"
+  ],
+  "author": "Ehsan Fazli",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.6.0",
+    "crypto": "^1.0.1",
+    "express": "^4.18.2",
+    "moment-jalaali": "^0.9.3",
+    "mongoose": "^7.6.1",
+    "winston": "^3.10.0"
+  }
+}
